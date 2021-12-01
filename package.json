@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "ciweimao-reader",
+  "name": "ciweimao",
   "title": "Ciweimao Reader",
   "description": "Use full features of www.ciweimao.com via their mobile api.",
   "icon": "command-icon.png",
