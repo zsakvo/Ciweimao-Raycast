@@ -34,6 +34,13 @@
       "subtitle": "Search Something",
       "description": "Search something by book-name or author",
       "mode": "view"
+    },
+    {
+      "name": "preference",
+      "title": "Preference",
+      "subtitle": "Change Preference",
+      "description": "Change your preference",
+      "mode": "view"
     }
   ],
   "preferences": [
@@ -55,7 +62,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.25.7",
+    "@raycast/api": "^1.28.0",
     "@types/crypto-js": "^4.0.2",
     "axios": "^0.24.0",
     "crypto-js": "^4.1.1",

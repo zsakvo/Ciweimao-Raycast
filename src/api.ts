@@ -34,6 +34,18 @@ ajax.interceptors.response.use((response: AxiosResponse) => {
 });
 
 /**
+ * 登陆账号
+ */
+export const login = (login_name: string, password: string) => {
+  return ajax.get("/signup/login", {
+    params: {
+      login_name,
+      password,
+    },
+  });
+};
+
+/**
  * 获取书架列表
  */
 export const getShelfList = () => {
